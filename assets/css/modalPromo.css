@@ -1,0 +1,179 @@
+.promo h4{
+
+    color: #008B48;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+@media(max-width: 550px){
+    .promo h4{
+        font-size: 23.3136px;
+        line-height: 28px;
+    }
+}
+
+.promo.promo-1 .promo-2{
+    display: none;
+}
+
+.promo.promo-2 .promo-1{
+    display: none;
+}
+
+.promo p{
+    color: #333;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+@media(max-width: 550px){
+    .promo p{
+        font-size: 14.9873px;
+        line-height: 18px;
+    }
+}
+
+.promo .footer{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #333333;
+    margin-top: 40px;
+    
+}
+
+@media(max-width: 550px){
+    .promo .footer{
+        font-size: 8px;
+        line-height: 10px;
+        margin-top: 30px;
+        margin-bottom: 0;
+        
+    }
+}
+
+.promo a {
+    background: #BED201;
+    box-shadow: 0px 6.4px 12.8px rgba(190, 210, 1, 0.45);
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28.8px;
+    line-height: 35px;
+    /* identical to box height */
+    text-transform: uppercase;
+    color: #008B48;
+    padding: 10px 32px 8px;
+}
+
+@media(max-width: 550px){
+    .promo a {
+        font-size: 20.6001px;
+        line-height: 25px;
+    }
+}
+
+.promo .modal-header{
+    background: url('../images/oferta-relampago.png'), url('../images/back-modal.png'), #F2F6CC;
+    background-position: 10px 10px, 0 0;
+    background-repeat: no-repeat;
+    min-height: 104px;
+}
+
+.promo .modal-header .moeda{
+
+    position: absolute;
+    width: 109px;
+    height: 109px;
+    background: url('../images/moeda.svg');
+    background-size: cover;
+    top: 51px;
+    left: calc(50% - 54px);
+
+}
+
+.promo .modal-body{
+    padding-left: 50px; 
+    padding-right: 50px; 
+}
+
+@media(max-width: 550px){
+    .promo .modal-body{
+       padding: 25px;
+    }
+}
+
+.promo .dv-prices{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+    min-width: 216px;
+}
+
+@media(max-width: 550px){
+    .promo .dv-prices{
+        min-width: 163px;
+        margin-bottom: 8px;
+    }
+}
+
+.promo .dv-prices span{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+@media(max-width: 550px){
+    .promo .dv-prices span{
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+.promo .dv-prices span:nth-child(1){
+    color:#BED201;
+    margin-right:5px;
+}
+
+.promo .dv-prices span:nth-child(2){
+    color: #008B48;
+    text-decoration: line-through;
+}
+
+.promo .dv-prices.p2 span{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.promo .dv-prices.p2 span:nth-child(1){
+    color:#BED201;
+}
+
+.promo .dv-prices.p2 span:nth-child(2){
+    color: #008B48;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 37px;
+    text-decoration: none;
+}
+
+@media(max-width: 550px){
+    .promo .dv-prices.p2 span:nth-child(2){
+        font-size: 40px;
+        line-height: 37px;
+    }
+}

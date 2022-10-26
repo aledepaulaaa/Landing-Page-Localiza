@@ -1,0 +1,137 @@
+#faq {
+    position: relative;
+    padding: 4rem 0 2rem 0;
+    background: url("../img/z.svg");
+    background-repeat: no-repeat;
+    background-position: calc(50% - (386px / 2) + 640px) calc(50% - (411px / 2) + 476px)
+}
+
+@media (max-width: 1199px) {
+    #faq {
+        background-position: calc(50% - (386px / 2) + 540px) calc(50% - (411px / 2) + 476px)
+    }
+}
+
+@media (max-width: 991px) {
+    #faq {
+        background: none
+    }
+}
+
+#faq h3 {
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    color: var(--text-color-primary);
+    text-align: center
+}
+
+#faq h2 {
+    color: var(--h2--color);
+    font-size: var(--h1-default);
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 4rem;
+    margin-top: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+@media (max-width: 767px) {
+    #faq h2 {
+        margin-bottom: 1.5rem;
+        font-size: 1.5rem;
+        text-align: center
+    }
+}
+
+@media (max-width: 575px) {
+    #faq h2 {
+        font-size: 1.3rem
+    }
+}
+
+#faq .accordion .card {
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 1px solid #d9d9d9;
+    outline: none !important;
+}
+
+#faq .accordion .card .card-header {
+    outline: none !important;
+    background-color: #fff !important
+}
+
+#faq .accordion .card .card-header a {
+    outline: none !important;
+    color: var(--h2--color) !important;
+}
+
+#faq .accordion .card .card-header .btn.focus, #faq .accordion .card .card-header .btn:focus {
+  box-shadow: none;
+}
+
+#faq .accordion .card .card-header img {
+    position: absolute;
+    top: 1.125rem;
+    right: 1rem
+}
+
+#faq .accordion .card h4 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 0;
+}
+
+@media (max-width: 991px) {
+    #faq .accordion .card h4 {
+        max-width: 620px
+    }
+}
+
+@media (max-width: 767px) {
+    #faq .accordion .card h4 {
+        max-width: 460px
+    }
+}
+
+@media (max-width: 575px) {
+    #faq .accordion .card h4 {
+        max-width: 320px
+    }
+}
+
+#faq .phone {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+#faq .phone p {
+    max-width: 14.75rem;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 4rem
+}
+
+#faq .phone p .to__tel {
+    color: var(--bg-color);
+    font-weight: 600;
+    transition: var(--transition)
+}
+
+#faq .phone p .to__tel:hover {
+  color: var(--text-color-primary);
+  text-decoration: none;
